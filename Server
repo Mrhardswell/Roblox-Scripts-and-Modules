@@ -1,0 +1,8 @@
+local RP = game:GetService("ReplicatedStorage")
+local PlayerManager = require(script.Parent.PlayerManagement:WaitForChild("PlayerManager"))
+
+PlayerManager.Start()
+
+PlayerManager.PlayerAdded:Connect(function(player)
+
+end)
